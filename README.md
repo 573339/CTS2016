@@ -12,4 +12,4 @@
 ![cts-section](https://cloud.githubusercontent.com/assets/14115077/14341536/751db6d6-fc60-11e5-8439-308563a88170.png)
 
 ###At a Glance
-![glance-section](https://cloud.githubusercontent.com/assets/14115077/14340445/d20ab05c-fc55-11e5-9c98-2f6a9695f109.png)
+![glance-section](https://cloud.githubusercontent.com/assets/14115077/14341560/ba7d7496-fc60-11e5-9858-934aaae3c8ab.png)

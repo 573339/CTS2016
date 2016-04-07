@@ -8,6 +8,9 @@
 ###Chief Section
 ![chief-section](https://cloud.githubusercontent.com/assets/14115077/14340425/819a9024-fc55-11e5-967c-971f2ebace25.png)
 
+###Mission Section
+![mission-section](https://cloud.githubusercontent.com/assets/14115077/14341601/23f273a4-fc61-11e5-8dbf-7e21d209e3a4.png)
+
 ###CTS Section
 ![cts-section](https://cloud.githubusercontent.com/assets/14115077/14341536/751db6d6-fc60-11e5-8439-308563a88170.png)
 

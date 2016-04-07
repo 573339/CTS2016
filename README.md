@@ -12,7 +12,10 @@
 ![mission-section](https://cloud.githubusercontent.com/assets/14115077/14341601/23f273a4-fc61-11e5-8dbf-7e21d209e3a4.png)
 
 ###CTS Section
-![cts-section](https://cloud.githubusercontent.com/assets/14115077/14341536/751db6d6-fc60-11e5-8439-308563a88170.png)
+![cts-section](https://cloud.githubusercontent.com/assets/14115077/14341956/123d2ce6-fc64-11e5-8374-e201dc73d96f.png)
+
+###Vision
+
 
 ###At a Glance
 ![glance-section](https://cloud.githubusercontent.com/assets/14115077/14341560/ba7d7496-fc60-11e5-9858-934aaae3c8ab.png)

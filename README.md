@@ -15,7 +15,7 @@
 ![cts-section](https://cloud.githubusercontent.com/assets/14115077/14341956/123d2ce6-fc64-11e5-8374-e201dc73d96f.png)
 
 ###Vision
-
+![vision-section](https://cloud.githubusercontent.com/assets/14115077/14341983/4c886064-fc64-11e5-9479-7d7aac69305a.png)
 
 ###At a Glance
 ![glance-section](https://cloud.githubusercontent.com/assets/14115077/14341560/ba7d7496-fc60-11e5-9858-934aaae3c8ab.png)

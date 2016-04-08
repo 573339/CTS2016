@@ -103,6 +103,48 @@ hr { border: solid #DDDDDD; border-width: 1px 0 0; clear: both; margin: 0 auto; 
 /* MODAL WINDOWS
 ================================================== */
 
+.modal-dialog {
+	width:900px;
+	margin:150px auto;
+}
+
+.modal-title {
+	font-family:'ralewaybold',Helvetica,Arial,sans-serif;
+	font-size:20px;
+	color: #00597d;
+
+}
+
+.btn-default {
+	border:none;
+	color: #00597d;
+}
+
+.btn-default:hover {
+	color: #3498db;
+	border:none;
+	background-color: #fff;
+}
+
+.modal-header .close {
+    margin-top: -12px;
+    }
+
+.close {
+    float: right;
+    font-size: 41px;
+    /* font-weight: bold; */
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+    color: #FFFFFF;
+    /* background: #111111; */
+}
 
 /*	Headings */
 

@@ -13,7 +13,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Brooklyn</title>
+	<title>CTS Annual Report</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -24,6 +24,7 @@
 	<!-- CSS
   ================================================== -->
   	<link rel="stylesheet" href="css/reset.css" media="all">
+    <link rel="stylesheet" href="css/bootstrap.css" media="all">
     <link rel="stylesheet" href="css/ut-fontface.css" media="all">
     <link rel="stylesheet" href="css/font-awesome.css" media="all">
 	<link rel="stylesheet" href="css/flexslider.css" media="all">
@@ -50,11 +51,11 @@
 	<![endif]-->
 
 	<!-- Favicons
-	================================================== -->
+	================================================== 
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">-->
 
 	<!-- Load jQuery
   	================================================== -->
@@ -62,6 +63,7 @@
     <script src="js/SmoothScroll.js"></script>
 	<script src="js/modernizr.js"></script>
     <script src="js/device.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 
 </head>
 
@@ -83,10 +85,10 @@
 						<nav id="ut-navigation" class="grid-90 tablet-grid-80 hide-on-mobile">
                         	<a href="#chief-section">From the chief</a>
 							<a href="#cts-section">CTS in Action</a>
-							<a href="#team-section">Awards &amp; Recognition</a>
+							<a href="#medal-section">Awards &amp; Recognition</a>
 							<a href="#service-section">CTS at a glance</a>
-                            <a href="#portfolio-section">Flight Plan Ahead</a>
-                            <a href="#testimonial-section">CTS Home</a>
+                            <a href="#flight-section">Flight Plan Ahead</a>
+                            <a class="selected" href="#">CTS Home</a>
                             <!--<a href="#contact-section">Contact</a>-->
 						</nav>
 					</div>
@@ -168,7 +170,7 @@
     
     <div class="clear"></div>
     
-    <!-- team section -->
+    <!-- CTS IN ACTION SECTION -->
     <div class="nav-waypoint">
 	<section id="cts-section" class="cts-section content-section">
 		<div class="grid-container">
@@ -286,7 +288,8 @@
             </div><!-- close CTS ACTION -->  
 			
 		</div><!-- close grid-container -->  
-	</section><!-- close team section -->
+	</section><!-- close CTA IN ACTION SECTION -->
+        </div><!-- close CTA navwaypoint -->
     
    <div class="clear"></div>
    
@@ -307,7 +310,10 @@
 		</div><!-- close grid container -->
 	</section><!-- close parallax banner 3-->
 
-        <section id="about-section" class="about-section content-section ha-waypoint" data-animate-up="ha-header-hide" data-animate-down="ha-header-small">
+     <div class="clear"></div>
+
+        <div class="nav-waypoint">
+        <section id="medal-section" class="medal-section content-section ha-waypoint" data-animate-up="ha-header-hide" data-animate-down="ha-header-small">
         <div class="grid-container">
             
             <!-- section header -->
@@ -317,77 +323,155 @@
                     <div class="border"></div>
                     <h2><span>Awards &amp; Recognition</span></h2>
                     </div>
-                    <img src="images/chief-photo.jpg" class="img-circle">
-                    <p class="section-slogan">Awards</p>
+                    <img src="images/awards-icon.png">
+                    <p class="promo-slogan">Awards</p>
                 </header>
-
+                </div>
+                      <div class="center-col">  
                       <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
                         <div class="about-box">
-                         <h3>CTS Phoenix Award for Excellence in Customer Service</h3>
+                         <h4>CTS Phoenix Award for Excellence in Customer Service</h4>
+                         <!-- TRIGGER LINK -->
+                        <a href="#" data-toggle="modal" data-target="#myModal">Jane Smith 2</a>
                          <ul class="awards">
-                            <li>Jane Smith 1</li>
-                            <li>Jane Smith 2</li>
-                            <li>Jane Smith 3</li>
-                            <li>Jane Smith 4</li>
+                            <li><a href="#">Jane Smith 2</a></li>
+                            <li><a href="#">Jane Smith 3</a></li>
+                            <li><a href="#">Jane Smith 4</a></li>
                         </ul>
 
-                        <h3>CTS Clipper Award</h3>
+                        <h4>CTS Clipper Award</h4>
                          <ul class="awards">
-                            <li>Jane Smith 1</li>
-                            <li>Jane Smith 2</li>
-                            <li>Jane Smith 3</li>
-                            <li>Jane Smith 4</li>
+                            <li><a href="#">Jane Smith 1</a></li>
+                            <li><a href="#">Jane Smith 2</a></li>
+                            <li><a href="#">Jane Smith 3</a></li>
+                            <li><a href="#">Jane Smith 4</a></li>
                         </ul>
                         </div>
                        </div>
 
                         <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
                         <div class="about-box">
-                        <h3>Exceptional Performance Award</h3>
+                        <h4>Exceptional Performance Award</h4>
                           <ul class="awards">
-                            <li>Jane Smith 1</li>
-                            <li>Jane Smith 2</li>
-                            <li>Jane Smith 3</li>
-                            <li>Jane Smith 4</li>
-                            <li>Jane Smith 5</li>
-                            <li>Jane Smith 6</li>
-                            <li>Jane Smith 7</li>
-                            <li>Jane Smith 8</li>
-                            <li>Jane Smith 9</li>
-                            <li>Jane Smith 10</li>
-                            <li>Jane Smith 11</li>
-                            <li>Jane Smith 12</li>
-                            <li>Jane Smith 13</li>
-                            <li>Jane Smith 14</li>
+                            <li><a href="#"><a href="#">Jane Smith 1</li>
+                            <li><a href="#">Jane Smith 2</a></li>
+                            <li><a href="#">Jane Smith 3</a></li>
+                            <li><a href="#">Jane Smith 4</a></li>
+                            <li><a href="#">Jane Smith 5</a></li>
+                            <li><a href="#">Jane Smith 6</a></li>
+                            <li><a href="#">Jane Smith 7</a></li>
+                            <li><a href="#">Jane Smith 8</a></li>
+                            <li><a href="#">Jane Smith 9</a></li>
+                            <li><a href="#">Jane Smith 10</a></li>
+                            <li><a href="#">Jane Smith 11</a></li>
+                            <li><a href="#">Jane Smith 12</a></li>
+                            <li><a href="#">Jane Smith 13</a></li>
+                            <li><a href="#">Jane Smith 14</a></li>
                         </ul>  
                     </div>
                     </div>
 
                 <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
                     <div class="about-box">
-                    <h3>Miscellaneous</h3>
+                    <h4>Miscellaneous</h4>
                     <ul class="awards">
-                            <li>Jane Smith 1</li>
-                            <li>Jane Smith 2</li>
-                            <li>Jane Smith 3</li>
-                            <li>Jane Smith 4</li>
-                            <li>Jane Smith 5</li>
-                            <li>Jane Smith 6</li>
-                            <li>Jane Smith 7</li>
-                            <li>Jane Smith 8</li>
-                            <li>Jane Smith 9</li>
+                            <li><a href="#">Jane Smith 1</a></li>
+                            <li><a href="#">Jane Smith 2</a></li>
+                            <li><a href="#">Jane Smith 3</a></li>
+                            <li><a href="#">Jane Smith 4</a></li>
+                            <li><a href="#">Jane Smith 5</a></li>
+                            <li><a href="#">Jane Smith 6</a></li>
+                            <li><a href="#">Jane Smith 7</a></li>
+                            <li><a href="#">Jane Smith 8</a></li>
+                            <li><a href="#">Jane Smith 9</a></li>
                     </ul>   
                 </div>
                 </div>
-            <!-- close section header -->
-            
+                </div><!-- center columns -->
+
+                     <!-- PROMOTIONS -->
+                    <div class="promo">
+                        <img src="images/promotions-icon.png">
+                        <p class="promo-slogan">Promotions</p>
+                    </div>
+                    <div class="center-col">  
+                    <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
+                    <div class="about-box">
+                        <ul class="awards">
+                                <li><a href="#">Jane Smith 1</a></li>
+                                <li><a href="#">Jane Smith 2</a></li>
+                        </ul>   
+                    </div>
+                    </div>
+
+                    <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
+                    <div class="about-box">
+                        <ul class="awards">
+                                <li><a href="#">Jane Smith 1</a></li>
+                                <li><a href="#">Jane Smith 2</a></li>
+                        </ul>   
+                    </div>
+                    </div>
+
+                    <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
+                    <div class="about-box">
+                        <ul class="awards">
+                                <li><a href="#">Jane Smith 1</a></li>
+                                <li><a href="#">Jane Smith 2</a></li>
+                        </ul>   
+                    </div>
+                    </div>
+                    </div><!-- center columns -->
+
+                    <!-- RECOGNITION -->
+
+                    <div class="promo">
+                        <img src="images/recognition-icon.png">
+                        <p class="promo-slogan">Recognition</p>
+                    </div>
+                    <div class="center-col">  
+                    <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
+                    <div class="about-box">
+                        <h4>CTS Phoenix Award for Excellence in Customer Service</h4>
+                        <ul class="awards">
+                            <li><a href="#">Jane Smith 1</a></li>
+                            <li><a href="#">Jane Smith 2</a></li>
+                            <li><a href="#">Jane Smith 3</a></li>
+                            <li><a href="#">Jane Smith 4</a></li>
+                            <li><a href="#">Jane Smith 5</a></li>
+                        </ul>   
+                    </div>
+                    </div>
+
+                    <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
+                    <div class="about-box">
+                        <h4>Employee of the Quarter</h4>
+                        <ul class="awards">
+                            <li><a href="#">Jane Smith 1</a></li>
+                            <li><a href="#">Jane Smith 2</a></li>
+                            <li><a href="#">Jane Smith 3</a></li>
+                            <li><a href="#">Jane Smith 4</a></li>
+                        </ul>   
+                    </div>
+                    </div>
+
+                    <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
+                    <div class="about-box">
+                        <h4>Commendations</h4>
+                        <ul class="awards">
+                                <li><a href="#">Jane Smith 1</a></li>
+                        </ul>   
+                    </div>
+                    </div>
+                    </div><!-- center columns -->
+
+            <!-- close section header -->            
         </div><!-- close grid-container -->
     </section><!-- close about section -->
-
-
     
-    <!-- cta section -->
+    <!-- AWARD section -->
     </div><!-- close nav-waypoint -->
+
          
     <div class="clear"></div>    
     
@@ -537,126 +621,92 @@
         <section id="cta-section" class="cta-section content-section">
         <div class="grid-container">    
             <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">            
-                <span class="cta-btn cl-effect-18"><a href="#contact-section" class="cl-effect-18">Talk to CTS</a></span>
+                <span class="cta-btn"><a href="#contact-section">Talk to CTS</a></span>
             </div>            
         </div> 
     </section><!-- close cta section -->
-    
-    
+      
     <div class="clear"></div>
-    
-    <!-- social section -->
-     <section id="social-section" class="parallax-section parallax-banner-4 parallax-background social-section">
-     <div class="parallax-overlay parallax-overlay-4"></div><!-- parallax overlay -->
-		<div class="grid-container parallax-content">
-        	<div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100">
-            
-            	<!-- parallax header -->
-            	<div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
-                    <header class="parallax-header">
-                    <h2 class="parallax-title"><span>Get Connected</span></h2>
-                    <p class="parallax-slogan">The <strong>NSA</strong> already takes care of our social media profiles, for everyone else who wants to get connected with us regularly , do not hesitate , we are waiting for <strong>you</strong>!</p>
-                    </header>
-                </div>
-            	<!-- close parallax header -->
-            
-            <div class="clear"></div>
-            
-            <!-- social network -->
-            <ul class="social-network">
-            	<li class="facebook grid-20 tablet-grid-20 mobile-grid-50">
-                	<a class="social-link" href="#" target="_blank">
-                    <span class="social-icon"><i class="icon-facebook icon-4x"></i></span>
-                    <h3 class="social-title">Facebook</h3>
-                    <span class="social-info">Join the Conversation</span>
-                    </a>
-                </li>
-                <li class="twitter grid-20 tablet-grid-20 mobile-grid-50">
-                	<a class="social-link" href="#" target="_blank">
-                    <span class="social-icon"><i class="icon-twitter icon-4x"></i></span>
-                    <h3 class="social-title">Twitter</h3> 
-                    <span class="social-info">Get the Latest News</span>
-                    </a>
-                </li>
-                <li class="google-plus grid-20 tablet-grid-20 mobile-grid-50">
-                	<a class="social-link" href="#" target="_blank">
-                    <span class="social-icon"><i class="icon-google-plus icon-4x"></i></span>
-                    <h3 class="social-title">Google Plus</h3>
-                    <span class="social-info">Join Our Circle</span>
-                    </a>
-                </li>
-                <li class="youtube grid-20 tablet-grid-20 mobile-grid-50">
-                	<a class="social-link" href="#" target="_blank">
-                    <span class="social-icon"><i class="icon-youtube icon-4x"></i></span>
-                    <h3 class="social-title">YouTube</h3>
-                    <span class="social-info">View Exclusive Videos</span>
-                    </a>
-                </li>
-            	<li class="instagram grid-20 tablet-grid-20 mobile-grid-50">
-                	<a class="social-link" href="#" target="_blank">
-                	<span class="social-icon"><i class="icon-instagram icon-4x"></i></span>
-                    <h3 class="social-title">Instagram</h3>
-                    <span class="social-info">Latest Images</span>
-                    </a>
-                </li>
-            </ul><!-- close social network -->
-    	
-      		</div><!-- close grid-100 -->
-		</div><!-- close grid container -->
-	</section><!-- close social section -->
-    </div><!-- close nav-waypoint -->
-    
-    <div class="clear"></div>
-    
-    <!-- testimonial section -->
+
+  <!-- FLIGHT PLAN AHEAD SECTION -->
     <div class="nav-waypoint">
-	<section id="testimonial-section" class="testimonial-section content-section">
-    	
-		<div class="grid-container">
-        
-        <!-- section header -->
+    <section id="flight-section" class="flight-section content-section">
+        <div class="grid-container">
+            
+            <!-- section header -->
             <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
                 <header class="section-header">
-                    <h2 class="section-title"><span>Happy Clients</span></h2>
-                    <p class="section-slogan">Over <strong>10.500</strong> extremely satisfied clients!</p>
+                    <div class="heading">
+                    <div class="border"></div>
+                    <h2><span>Flight Plan Ahead</span></h2>
+                    </div>
                 </header>
             </div>
             <!-- close section header -->
             
             <div class="clear"></div>
-        	
-            <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
             
-            <div class="ut-testimonials">
-            	<div id="avatarSlider" class="ut-rotate-avatar">
-                	<ul class="slides">
-						<li>
-                        	<img src="images/member1.jpg" class="ut-quote-avatar" alt="avatar">
-                        </li>
-						<li>
-                        	<img src="images/member6.jpg" class="ut-quote-avatar" alt="avatar">
-                        </li>
-					</ul>
-           		</div><!-- close avatarSlider -->
+               <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
+                <figure class="flight-icon"><img src="images/image-icon.png"></figure>
                 
-                <div id="quoteSlider" class="ut-rotate-quote">
-                	<ul class="slides">
-                        <li>
-                        	<span class="ut-quote-comment">Five stars for this theme. Awesome design and great, quick support.</span>
-							<h3 class="ut-quote-name">Jax Teller via Twitter</h3>    
-                        </li>
-                        <li>
-                        	<span class="ut-quote-comment">Just a huge thanks to the United Themes team for being so helpful in their forums.</span>
-							<h3 class="ut-quote-name">Tara Knowles-Teller via Twitter</h3>     
-                        </li>
-                    </ul>
-                </div><!-- close quoteSlider -->    
-            </div><!-- close ut-testimonials -->
+                <div class="about-box">
+                    <h3>Lorem Ipsum Dolor sit Amet Consectetur Adipiscing Elit</h3>
+                    <h4>Goal sub category to go here</h4>
+                    <p>Etiam consequat felis vitae nulla ullamcorper ultrices. Fusce aliquam justo nibh, non varius dui hendrerit sedIn hac habitasse platea dictumst.</p>
+                    <a href="#">MORE</a>
+                </div>
+            </div>
             
-           </div><!-- close grid-70 prefix-15 mobile-grid-100 tablet-grid-100 -->			
+            <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
+                <figure class="flight-icon"><img src="images/image-icon.png"></figure>
+                
+                 <div class="about-box">
+                    <h3>Lorem Ipsum Dolor sit Amet Consectetur Adipiscing Elit</h3>
+                    <h4>Goal sub category to go here</h4>
+                    <p>Etiam consequat felis vitae nulla ullamcorper ultrices. Fusce aliquam justo nibh, non varius dui hendrerit sedIn hac habitasse platea dictumst.</p>
+                    <a href="#">MORE</a>
+                </div>
+            </div>
             
-		</div><!-- close container -->
-	</section><!-- close testimonial section -->
+            <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
+                <figure class="flight-icon"><img src="images/image-icon.png"></figure>
+                
+                 <div class="about-box">
+                    <h3>Lorem Ipsum Dolor sit Amet Consectetur Adipiscing Elit</h3>
+                    <h4>Goal sub category to go here</h4>
+                    <p>Etiam consequat felis vitae nulla ullamcorper ultrices. Fusce aliquam justo nibh, non varius dui hendrerit sedIn hac habitasse platea dictumst.</p>
+                     <a href="#">MORE</a>
+                </div>
+            </div>
+
+             <div class="center-columns">   
+             <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
+                <figure class="flight-icon"><img src="images/image-icon.png"></figure>
+                
+                 <div class="about-box">
+                    <h3>Lorem Ipsum Dolor sit Amet Consectetur Adipiscing Elit</h3>
+                    <h4>Goal sub category to go here</h4>
+                    <p>Etiam consequat felis vitae nulla ullamcorper ultrices. Fusce aliquam justo nibh, non varius dui hendrerit sedIn hac habitasse platea dictumst.</p>
+                     <a href="#">MORE</a>
+                </div>
+            </div>
+
+             <div class="grid-33 tablet-grid-100 mobile-grid-100 about-box">
+                <figure class="flight-icon"><img src="images/image-icon.png"></figure>
+                
+                 <div class="about-box">
+                    <h3>Lorem Ipsum Dolor sit Amet Consectetur Adipiscing Elit</h3>
+                    <h4>Goal sub category to go here</h4>
+                    <p>Etiam consequat felis vitae nulla ullamcorper ultrices. Fusce aliquam justo nibh, non varius dui hendrerit sedIn hac habitasse platea dictumst.</p>
+                     <a href="#">MORE</a>
+                </div>
+            </div>
+            </div>
+
+          <!-- close CTS ACTION -->  
+            
+        </div><!-- close grid-container -->  
+    </section><!-- close CTA IN ACTION SECTION -->
      
     <div class="clear"></div>
     
@@ -678,6 +728,25 @@
 		</div><!-- close container -->
 	</footer><!-- close footer -->
 </div>
+                    <!-- AWARD MODALS -->
+                        <div id="myModal" class="modal fade" role="dialog">
+                          <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Modal Header</h4>
+                              </div>
+                              <div class="modal-body">
+                                <p>Some text in the modal.</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 	
     <!-- Load Javascript
   	================================================== -->    
@@ -691,5 +760,7 @@
     
 <!-- End Document
 ================================================== -->
+
+
 </body>
 </html>

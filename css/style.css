@@ -115,6 +115,14 @@ hr { border: solid #DDDDDD; border-width: 1px 0 0; clear: both; margin: 0 auto; 
 
 }
 
+.modal-body {
+	padding:40px;
+}
+
+.modal-list li a:hover {
+	text-decoration: none;
+}
+
 .btn-default {
 	border:none;
 	color: #00597d;
